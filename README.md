@@ -3,17 +3,22 @@
 This project is a Spring Boot application that integrates with SerpAPI to fetch author information and related articles from Google Scholar. The main goal is to query authors, retrieve their articles, and store the results in a JSON format.
 
 ## Features
-
+### Article
 - Fetches data from Google Scholar using SerpAPI.
 - Stores retrieved articles with the following attributes:
 - id: unique identifier
 - title: article title
 - authors: list of authors, separated by commas
 - publication_date: date when the article was published
-- abstract: short summary of the article
 - link: direct link to the article
-- keywords: list of keywords, separated by commas
 - cited_by: number of citations (if available)
+### Author
+- author_Id: unique identifier
+- name: name of the author
+- email: email of the author
+- website: website of the author
+- totalCitations: Total citations for all articles
+- interests: list of interests, separated by commas
 
 ## Architecture
 
@@ -39,4 +44,16 @@ Technology Stack
 - Java (language)
 - SerpAPI (to fetch Google Scholar data)
 - JPA / Hibernate (ORM for database interaction)
-- JUnit (for testing)
+- Postman (for testing)
+
+# Use
+You need to create application.properties file to setup the following configurations
+
+spring.application.name=demo
+spring.datasource.url=jdbc:postgresql://localhost:5432/serpapi
+spring.datasource.username=postgres
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+serpapi.api.key="YOUR_API_KEY"

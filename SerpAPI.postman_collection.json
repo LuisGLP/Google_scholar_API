@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "3c122634-70b9-4b15-be6d-b0314aaaa8b8",
+		"name": "SerpAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5227081"
+	},
+	"item": [
+		{
+			"name": "ID_Author",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/{{apiEndpointAuthor}}/7ZPKs-QAAAAJ",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"{{apiEndpointAuthor}}",
+						"7ZPKs-QAAAAJ"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Author_ZjfgPLMAAAAJ",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 04 Oct 2025 18:48:55 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"author\": {\n        \"name\": \"Mike A. Nalls\",\n        \"interests\": [\n            {\n                \"title\": \"statistical genetics\"\n            },\n            {\n                \"title\": \"neurodegeneration\"\n            },\n            {\n                \"title\": \"data science\"\n            },\n            {\n                \"title\": \"biostatistics\"\n            },\n            {\n                \"title\": \"genomics\"\n            }\n        ]\n    },\n    \"articles\": [\n        {\n            \"title\": \"Heart disease and stroke statistics—2014 update: a report from the American Heart Association\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:nPTYJWkExTIC\",\n            \"authors\": \"AS Go, D Mozaffarian, VL Roger, EJ Benjamin, JD Berry, MJ Blaha, S Dai, ...\",\n            \"cited_by\": {\n                \"value\": 74310,\n                \"cites_id\": \"17902561123295470180,12750599967268488540,4920226881403204332,410886075885659304,4159640582887868445,8973070304884454513,1542958399579433181,14782034060508409545,3795592032821948501,1092533899886087705,14252372775208904155,1413832158247631215,3559902983701997544,17146314754129165916,8177085601743284501,47439678024689342,16045603464368134489,15967309352124940589,2719596627166889685,3455670310778849352,11792649416513787151,7894155985111553578,2880683325137194058,12808561283795477659,8036217238771186174,9365966316813966130,5363908518310859041,12211161409167327813,14371834222992317860\"\n            },\n            \"year\": \"2014\"\n        },\n        {\n            \"title\": \"Genetic studies of body mass index yield new insights for obesity biology\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:jgBuDB5drN8C\",\n            \"authors\": \"AE Locke, B Kahali, SI Berndt, AE Justice, TH Pers, FR Day, C Powell, ...\",\n            \"cited_by\": {\n                \"value\": 5293,\n                \"cites_id\": \"4209019938866240964,10244293800338025839,2952216574740269523\"\n            },\n            \"year\": \"2015\"\n        },\n        {\n            \"title\": \"A hexanucleotide repeat expansion in C9ORF72 is the cause of chromosome 9p21-linked ALS-FTD\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:bnK-pcrLprsC\",\n            \"authors\": \"AE Renton, E Majounie, A Waite, J Simón-Sánchez, S Rollinson, ...\",\n            \"cited_by\": {\n                \"value\": 5179,\n                \"cites_id\": \"16709110256794642648\"\n            },\n            \"year\": \"2011\"\n        },\n        {\n            \"title\": \"Meta-analysis of 74,046 individuals identifies 11 new susceptibility loci for Alzheimer's disease\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:SpbeaW3--B0C\",\n            \"authors\": \"JC Lambert, CA Ibrahim-Verbaas, D Harold, AC Naj, R Sims, ...\",\n            \"cited_by\": {\n                \"value\": 4963,\n                \"cites_id\": \"8765039344169316765\"\n            },\n            \"year\": \"2013\"\n        },\n        {\n            \"title\": \"Multicenter analysis of glucocerebrosidase mutations in Parkinson's disease\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:t6usbXjVLHcC\",\n            \"authors\": \"E Sidransky, MA Nalls, JO Aasly, J Aharon-Peretz, G Annesi, ER Barbosa, ...\",\n            \"cited_by\": {\n                \"value\": 2538,\n                \"cites_id\": \"15926716899896562223\"\n            },\n            \"year\": \"2009\"\n        },\n        {\n            \"title\": \"Genetic variants in novel pathways influence blood pressure and cardiovascular disease risk\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:WA5NYHcadZ8C\",\n            \"authors\": \"CKDGen Consortium, KidneyGen Consortium, EchoGen consortium, ...\",\n            \"cited_by\": {\n                \"value\": 2440,\n                \"cites_id\": \"6899135227310343261\"\n            },\n            \"year\": \"2011\"\n        },\n        {\n            \"title\": \"Genome-wide association study reveals genetic risk underlying Parkinson's disease\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:XiVPGOgt02cC\",\n            \"authors\": \"J Simón-Sánchez, C Schulte, JM Bras, M Sharma, JR Gibbs, D Berg, ...\",\n            \"cited_by\": {\n                \"value\": 2335,\n                \"cites_id\": \"5502348218424406028\"\n            },\n            \"year\": \"2009\"\n        },\n        {\n            \"title\": \"Identification of novel risk loci, causal insights, and heritable risk for Parkinson's disease: a meta-analysis of genome-wide association studies\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:oYLFIHfuHKwC\",\n            \"authors\": \"MA Nalls, C Blauwendraat, CL Vallerga, K Heilbron, S Bandres-Ciga, ...\",\n            \"cited_by\": {\n                \"value\": 2291,\n                \"cites_id\": \"4912966908532280612\"\n            },\n            \"year\": \"2019\"\n        },\n        {\n            \"title\": \"Defining the role of common variation in the genomic and biological architecture of adult human height\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:vDZJ-YLwNdEC\",\n            \"authors\": \"AR Wood, T Esko, J Yang, S Vedantam, TH Pers, S Gustafsson, AY Chu, ...\",\n            \"cited_by\": {\n                \"value\": 2255,\n                \"cites_id\": \"8626513868050362933\"\n            },\n            \"year\": \"2014\"\n        },\n        {\n            \"title\": \"Large-scale meta-analysis of genome-wide association data identifies six new risk loci for Parkinson's disease\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:8xutWZnSdmoC\",\n            \"authors\": \"MA Nalls, N Pankratz, CM Lill, CB Do, DG Hernandez, M Saad, ...\",\n            \"cited_by\": {\n                \"value\": 2185,\n                \"cites_id\": \"10525501821676637397,4702326117757693809\"\n            },\n            \"year\": \"2014\"\n        },\n        {\n            \"title\": \"Systematic identification of trans eQTLs as putative drivers of known disease associations\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:ILKRHgRFtOwC\",\n            \"authors\": \"HJ Westra, MJ Peters, T Esko, H Yaghootkar, C Schurmann, J Kettunen, ...\",\n            \"cited_by\": {\n                \"value\": 2006,\n                \"cites_id\": \"1493846002194890401\"\n            },\n            \"year\": \"2013\"\n        },\n        {\n            \"title\": \"New genetic loci link adipose and insulin biology to body fat distribution\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:zCSUwVk65WsC\",\n            \"authors\": \"D Shungin, TW Winkler, DC Croteau-Chonka, T Ferreira, AE Locke, ...\",\n            \"cited_by\": {\n                \"value\": 1840,\n                \"cites_id\": \"7497517124792096698\"\n            },\n            \"year\": \"2015\"\n        },\n        {\n            \"title\": \"Multiancestry genome-wide association study of 520,000 subjects identifies 32 loci associated with stroke and stroke subtypes\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:Ic1VZgkJnDsC\",\n            \"authors\": \"R Malik, G Chauhan, M Traylor, M Sargurupremraj, Y Okada, A Mishra, ...\",\n            \"cited_by\": {\n                \"value\": 1621,\n                \"cites_id\": \"5278363789659574875\"\n            },\n            \"year\": \"2018\"\n        },\n        {\n            \"title\": \"Genome-wide analysis of genetic loci associated with Alzheimer disease\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:olpn-zPbct0C\",\n            \"authors\": \"S Seshadri, AL Fitzpatrick, MA Ikram, AL DeStefano, V Gudnason, ...\",\n            \"cited_by\": {\n                \"value\": 1555,\n                \"cites_id\": \"11324176867079303733\"\n            },\n            \"year\": \"2010\"\n        },\n        {\n            \"title\": \"Genetic analysis of over 1 million people identifies 535 new loci associated with blood pressure traits\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:orDZ08hpP44C\",\n            \"authors\": \"E Evangelou, HR Warren, D Mosen-Ansorena, B Mifsud, R Pazoki, H Gao, ...\",\n            \"cited_by\": {\n                \"value\": 1522,\n                \"cites_id\": \"18429336239641274501,17327839247422511886,5900318251831396350,10046673707106619544,13534975912274217015\"\n            },\n            \"year\": \"2018\"\n        },\n        {\n            \"title\": \"Frequency of the C9orf72 hexanucleotide repeat expansion in patients with amyotrophic lateral sclerosis and frontotemporal dementia: a cross-sectional study\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:PELIpwtuRlgC\",\n            \"authors\": \"E Majounie, AE Renton, K Mok, EGP Dopper, A Waite, S Rollinson, ...\",\n            \"cited_by\": {\n                \"value\": 1474,\n                \"cites_id\": \"8581689248109617085\"\n            },\n            \"year\": \"2012\"\n        },\n        {\n            \"title\": \"Vitamin D–binding protein and vitamin D status of black Americans and white Americans\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:foquWX3nUaYC\",\n            \"authors\": \"CE Powe, MK Evans, J Wenger, AB Zonderman, AH Berg, M Nalls, ...\",\n            \"cited_by\": {\n                \"value\": 1275,\n                \"cites_id\": \"5601136915074850281\"\n            },\n            \"year\": \"2013\"\n        },\n        {\n            \"title\": \"A meta-analysis of genome-wide association studies identifies 17 new Parkinson's disease risk loci\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:H_jBuBxbQIAC\",\n            \"authors\": \"D Chang, MA Nalls, IB Hallgrímsdóttir, J Hunkapiller, M Van Der Brug, ...\",\n            \"cited_by\": {\n                \"value\": 1266,\n                \"cites_id\": \"14990149488990031718\"\n            },\n            \"year\": \"2017\"\n        },\n        {\n            \"title\": \"The genetic architecture of Parkinson's disease\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:X5YyAB84Iw4C\",\n            \"authors\": \"C Blauwendraat, MA Nalls, AB Singleton\",\n            \"cited_by\": {\n                \"value\": 1205,\n                \"cites_id\": \"7919599832254688009\"\n            },\n            \"year\": \"2020\"\n        },\n        {\n            \"title\": \"The interleukin-6 receptor as a target for prevention of coronary heart disease: a mendelian randomisation analysis\",\n            \"citation_id\": \"ZjfgPLMAAAAJ:VL0QpB8kHFEC\",\n            \"authors\": \"Interleukin-6 Receptor Mendelian Randomisation Analysis (IL6R MR) Consortium\",\n            \"cited_by\": {\n                \"value\": 1202,\n                \"cites_id\": \"13661726566749499386\"\n            },\n            \"year\": \"2012\"\n        }\n    ]\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": ""
+		},
+		{
+			"key": "apiEndpointAuthor",
+			"value": ""
+		},
+		{
+			"key": "apiEndpointScholar",
+			"value": ""
+		}
+	]
+}
